@@ -1,0 +1,119 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Basic styles for layout and typography */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+header {
+  background: #333;
+  color: #fff;
+  padding: 10px 0; /* Decrease padding */
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.header-content {
+  display: flex; /* Use flexbox for alignment */
+  align-items: center; /* Center items vertically */
+  padding: 6px 0px 0px 38px;
+}
+
+.logo {
+  margin-right: 10px; /* Add margin between logo and heading */
+  width: 110px;
+  height: 85px;
+  border-radius: 50%;
+}
+
+.site-heading {
+  font-size: 24px; /* Adjust font size */
+}
+
+.hero {
+  background: url("Resources/blue-background-7470781_640.jpg") center/cover;
+  color: #fff;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.features {
+  padding: 100px 0; /* Increase padding */
+}
+
+.features .feature {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.testimonials {
+  background: #f4f4f4;
+  padding: 100px 0; /* Increase padding */
+}
+
+.testimonials .testimonial {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.contact {
+  padding: 100px 0; /* Increase padding */
+}
+
+.contact input,
+.contact textarea {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.contact button {
+  padding: 10px 20px;
+  background: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.social-links a {
+  display: inline-block;
+  margin-right: 10px;
+  color: #333;
+  text-decoration: none;
+}
+
+.social-links img {
+  width: 50px; /* Adjust the size as needed */
+  height: 50px; /* Adjust the size as needed */
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+  .container {
+    padding: 0 10px;
+  }
+}
